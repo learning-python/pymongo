@@ -14,3 +14,5 @@ def whiskeys(request):
         doc = loads(request.body)
         res = mongo_controller.insert_one('whiskeys', doc)
         return HttpResponse(res.inserted_id)
+
+# http://api.mongodb.com/python/current/api/pymongo/results.html
