@@ -5,7 +5,8 @@ drinks_db = client.drinks
 
 def find(collection_name):
     collection = drinks_db[collection_name]
-    return collection.find()
+    res = collection.find()
+    return res
 
 def insert_one(collection_name, doc):
     collection = drinks_db[collection_name]
