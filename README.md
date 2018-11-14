@@ -1,7 +1,11 @@
 # pymongo
 PyMongo
 
+- [] Delete everything but the `.gitignore`, `LICENSE`, and `README.md`.
 In the terminal:
+- [] Type `python3 -m venv thais_venv` or `py -m venv thais_venv`
+- [] Type `source thais_venv/bin/activate` or `source thais_venv/Scripts/activate`
+- [] Type `pip3 install django` or `py -m pip3 install django`
 - [] Type `pip3 install pymongo` or `py -m pip3 install pymongo`
 - [] Type `django-admin startproject pymongo_server`
 - [] Type `cd pymongo_server`
